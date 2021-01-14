@@ -1,0 +1,247 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+
+header {
+	padding: 20px 30px;
+}
+
+header>ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header>ul>li {
+	margin-right: 15px;
+}
+
+header>ul>li:last-child {
+	margin-right: 0;
+}
+
+header>ul>li:hover ul.login {
+	display: block;
+	z-index: 100;
+}
+
+header>ul>li:hover ul.GH {
+	display: block;
+	z-index: 100;
+}
+
+header>ul>li img {
+	width: 160px;
+	height: 80px;
+}
+
+header>ul>li a {
+	color: black;
+}
+
+header>ul>li i {
+	color: black;
+}
+
+header>ul>li P {
+	display: flex;
+}
+
+header>ul>li>ul.login {
+	position: absolute;
+	background: white;
+	display: none;
+	margin-top: 50px;
+	box-shadow: 1px 1px 3px 2px #d4d1d1;
+}
+
+header>ul>li>ul.login>li {
+	padding: 10px;
+	border-bottom: 1px solid whitesmoke;
+}
+
+header>ul>li>ul.login>li:hover {
+	background: white;
+	color: #3a3737;
+	
+}
+
+header>ul>li>ul.login>li a {
+	color: black;
+}
+
+header>ul>li>ul.GH {
+	text-align: center;
+	width: 370px;
+	position: absolute;
+	background: white;
+	display: none;
+	margin-top: 50px;
+	margin-left: -150px;
+	box-shadow: 1px 1px 3px 2px #d4d1d1;
+}
+
+header>ul>li>ul.GH>li {
+	padding: 13px;
+	border-bottom: 1px solid whitesmoke;
+}
+
+header>ul>li>ul.GH>li:hover {
+	background: white;
+	color: #3a3737;
+	
+}
+
+header>ul>li>ul.GH>li a {
+	color: black;
+	font-size: 17px;
+}
+
+header>ul .bb {
+	padding: 0px 180px;
+}
+
+header .border-header {
+	border-bottom: 1px solid whitesmoke;
+	width: 93%;
+	margin: 10px 0px 0px 40px;
+}
+
+.Nabar {
+	margin: 10px;
+}
+
+.Nabar>ul {
+	display: flex;
+	list-style: none;
+}
+
+.Nabar>ul>li {
+	margin-left: 40px;
+}
+
+.Nabar>ul>li:hover ul.GT {
+	display: block;
+	z-index: 100;
+}
+
+.Nabar>ul>li:hover ul.mega-menu {
+	visibility: visible;
+	z-index: 100;
+}
+
+.Nabar>ul>li:hover ul.GTTT {
+	visibility: visible;
+	z-index: 100;
+}
+
+.Nabar>ul>li a {
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	transition: 0.5s;
+}
+
+.Nabar>ul>li a.active {
+	color: #a8716a;
+}
+
+.Nabar>ul>li a:hover {
+	color: #a8716a;
+}
+
+.Nabar>ul>li a i {
+	margin-left: 5px;
+}
+
+.Nabar>ul>li ul.GT {
+	position: absolute;
+	background: white;
+	display: none;
+	margin-top: 13px;
+	box-shadow: 2px 0px 20px #cfd8dc inset;
+}
+
+.Nabar>ul>li ul.GT>li {
+	padding: 5px;
+	border-bottom: 1px solid whitesmoke;
+}
+
+.Nabar>ul>li ul.GT>li:hover {
+	background: white;
+	color: #3a3737;
+}
+
+.Nabar>ul>li ul.GT>li a {
+	color: black;
+}
+
+.Nabar>ul>li>ul.GTTT {
+	position: absolute;
+	width: 50%;
+	left: 20%;
+	top: 175px;
+	padding: 8px;
+	box-shadow: 0px 0px 5px -2px #3333;
+	display: flex;
+	background: white;
+	visibility: hidden;
+	box-shadow: 2px 0px 20px #cfd8dc inset;
+}
+
+.Nabar>ul>li>ul.GTTT>li {
+	width: 33.33%;
+	padding: 0px 10px;
+	border-right: 1px solid #3333;
+}
+
+.Nabar>ul>li>ul.GTTT>li>span {
+	padding-bottom: 70px;
+}
+
+.Nabar>ul>li>ul.GTTT>li>ul>li>a {
+	color: black;
+	padding: 10px 0px;
+	display: inline-block;
+}
+
+.Nabar>ul>li>ul.GTTT>li:last-child {
+	border-right: none;
+}
+
+.Nabar>ul>li>ul.mega-menu {
+	position: absolute;
+	width: 85%;
+	left: 8%;
+	top: 175px;
+	padding: 8px;
+	box-shadow: 0px 0px 5px -2px #3333;
+	display: flex;
+	background: white;
+	visibility: hidden;
+	box-shadow:2px 0px 20px #cfd8dc inset;
+}
+
+.Nabar>ul>li>ul.mega-menu>li {
+	width: 25%;
+	padding: 0px 40px;
+	border-right: 1px solid #3333;
+}
+
+.Nabar>ul>li>ul.mega-menu>li>span {
+	padding-bottom: 70px;
+}
+
+.Nabar>ul>li>ul.mega-menu>li>ul>li>a {
+	padding: 10px 0px;
+	display: inline-block;
+}
+
+.Nabar>ul:first-child {
+	margin-left: 58px;
+}
+Kết thúc cuộc trò chuyện
+Nhập tin nhắn...
+
+
